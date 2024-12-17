@@ -1,0 +1,144 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('images/Background.png');
+    color: #333;
+    line-height: 1.05;
+    display:block;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #0a0606;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav ul.logo1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.logo1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav .list ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav .list ul li {
+    margin-left: 15px;
+}
+
+nav .list ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav .list ul li a:hover {
+    color: #f44336;
+}
+
+nav .list ul li.box a {
+    background-color: #f44336;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav .list ul li.box a:hover {
+    background-color: #e53935;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 40px 0;
+}
+
+/* Subheading */
+h4 {
+    text-align: center;
+    font-size:15px;
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+/* Box2 */
+.box2 {
+    text-align: center;
+    background-color: #fff;
+    color: #9c9c9c;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    margin: 40px;
+}
+
+/* Box3 */
+.box3 {
+    text-align: center;
+    background-color: #070807;
+    color: #fff;
+    padding: 20px 30px ;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.box3:hover {
+    background-color: #45a049;
+}
+
+/* Box4 */
+.box4 {
+    text-align:right;
+    background-color: #d2e718c2;
+    color: #050202;
+    padding:  -10px;
+    font-size: 1.ch;
+    font-weight:bold;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    margin: 10px 550px 350px 550px;
+
+
+}
+
+.box4 img {
+    vertical-align:-16px;
+    margin-right: 5px;
+    margin-top: 0px;
+    align-content: center;
+
+
+}
+
